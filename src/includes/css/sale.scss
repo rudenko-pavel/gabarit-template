@@ -1,0 +1,71 @@
+/******* sale START *********/
+#salePartOne{
+    .sale-text{ margin: 5em 0;  }
+
+    .map-div{
+        background-image: url(../img/map.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
+
+#salePartTwo{
+    background-image: url(../img/room.jpg);
+    font-size: $font-size-1d1;
+    background-position: center;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1234;
+
+    .super-proposition{
+        background-color: $yellow-color;
+        position: absolute;
+        bottom: 30px;
+        right: 30px;
+        width: 80%;
+        height: $font-size-6d0;
+
+        .carousel-control-next-icon, .carousel-control-prev-icon {
+            position: relative;
+            top: 0em;
+        }
+    }
+
+    .wrapperSaleCarousel{
+        padding: 2% 10%;
+    }
+}
+
+#salePartThree, .send-block{    background-color: $brown-opacity-color;  z-index: 1233;   }
+
+.send-block{
+    text-align: center;
+    color: $white-color;
+
+    p           {  font-size: $font-size-0d8;   }
+    .tip-text   {  padding: 0 0 20px 0;         }
+
+    .nice-line{
+        border-top: 4px solid $yellow-color;
+        width: 20%;
+        &:before    {    right: 155%;    }
+        &:after     {    right: -105%;   }
+
+        &:before, &:after{
+            display: block;
+            content: "";
+            height: 30px;
+            margin-top: -31px;
+            border-style: solid;
+            border-color: $yellow-color;
+            border-width: 0 0 1px 0;
+            position: relative;
+            width: 150%;
+        }
+    }
+    
+}
+/******* sale END *********/

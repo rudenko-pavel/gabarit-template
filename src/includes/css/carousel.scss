@@ -1,0 +1,82 @@
+.carousel-item{
+
+    .carousel-item-2{
+        float: left;
+        width: 50%;
+        padding: 2%;
+        &.a0{ padding-left: 7%;  }
+        &.a1{ padding-right: 7%; }
+    }
+
+    .carousel-item-3{
+        float: left;
+        width: 33%;
+        padding: 2%;
+        &.a0{ padding-left: 7%;  }
+        &.a1{    padding-left: 4.5%;
+            padding-right: 4.5%;}
+        &.a2{ padding-right: 7%; }
+
+        .card-item{
+            background: none !important;
+            border: none !important;
+        }
+    }
+}
+
+
+.carousel-indicators{
+    position: absolute;
+    top: -10px;
+    z-index: 77777;
+    height: 20px;
+    &.active { background-color: $white-color;  }
+
+    li {
+        position: relative;
+        box-shadow: 0px 10px 14px -7px $darkblue-color;
+        background: $button-carousel-linear-gradient;
+        border-radius: 6px;
+        display: inline-block;
+        font-weight: bold;
+        padding: 6px 6px;
+        text-decoration: none;
+        width: 6px;
+        margin: 0 6px;
+
+        &:hover{cursor: pointer;}
+        
+        &.active {
+            background: $button-linear-gradient;
+            border-radius: 8px;
+            padding: 8px 8px;
+            width: 8px;
+            box-shadow: $button-carousel-shadow;
+            top: -2px;
+        }
+    }
+}
+
+.carousel-control-next, .carousel-control-prev {
+    width: 10%;
+    opacity: .8;
+    i{
+        font-size: $font-size-2d4;
+        text-shadow: $carousel-text-shadow;
+        color: $darkblue-color;
+    }
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon { background-image: none;  }
+
+#carouselSaleControls{
+    .carousel-control-next, .carousel-control-prev{
+        font-size: $font-size-1d4;
+        text-shadow: none;
+        color: $black-color;
+    }
+    p {
+        margin-top: 0;
+        margin-bottom: $font-size-0d4;
+    }
+}

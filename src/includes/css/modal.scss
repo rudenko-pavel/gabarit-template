@@ -1,0 +1,27 @@
+.modal {
+    background-color: rgba(0,0,0,0.85);
+    z-index: 105000 !important;
+    .modal-dialog {
+        max-width: 600px !important;
+
+        .modal-content{
+            background-color: $white-color;
+            padding: 10px;
+
+            .modal-body {
+                padding: 0 !important;
+                text-indent: 20px;
+                line-height: 1.8em;
+                img{
+                    position: relative;
+                    max-width: 100%;
+                    left: -20px;
+                }
+            }
+
+            button:focus {
+                background-color: transparent;
+            }
+        }
+    }
+}

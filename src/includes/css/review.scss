@@ -1,0 +1,54 @@
+/************* review start ***************/
+#review{
+    background-image: url(../img/bg/review-bg.jpg);
+
+    .card-item {
+      background-image: url(../img/bg/card-bg.jpg);
+      margin-bottom: 30px;
+      border-radius: 1px;
+      border: 1px solid $white-color;
+      background-size: auto 100%;
+      margin: 15px auto;
+
+      h4{
+        padding: 20px 0 10px 30px;
+        color: $darkblue-color;
+      }
+
+      .card-item-name{
+        height: $font-size-5d0;
+        font-size: $font-size-0d8;
+      }
+
+      .card-item-img{
+        height: 350px;
+        overflow: hidden;
+        text-align: center;
+        img{
+          max-height: 100%;
+          max-width: 100%;
+        }
+      }
+
+      .card-item-details{
+        padding: 20px 10px 20px 60px;
+        height: $font-size-9d0;
+        overflow: hidden;
+        position: relative;
+
+        &:before {
+          content: url(../img/quotes-01.png); 
+          left: 10px;
+          top: 20px;
+          position: absolute;
+         }
+      }
+
+      .card-item-button{
+        text-align: left;
+        padding: 10px 0 30px 10px;
+      }
+    }
+
+  }
+  /************* review end ****************/

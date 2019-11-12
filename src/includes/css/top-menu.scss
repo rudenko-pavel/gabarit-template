@@ -1,0 +1,128 @@
+/******* top-menu START *********/
+#top-menu{
+    background-image: url(../img/bg/top-banner-bg.jpg);
+    background-size: cover;
+    font-size:    $font-size-1d1;
+    padding-top: 1em;
+
+    .shadow {
+        -moz-box-shadow:    none;
+        -webkit-box-shadow: none;
+        box-shadow:         none;
+      }
+    .sticky{
+        position: fixed;
+        padding: 5px 0;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 99999;
+        background-image: url(../img/bg/top-banner-bg.jpg);
+        display: block;
+    }
+  
+    .btn-sm{
+        font-size:    $font-size-1d1;
+        padding: 4px 15px;
+        border-radius: 20px;
+        background: transparent;
+        width: auto;
+        box-shadow: none;
+        border: none;
+        color: $white-color;
+        &:hover{background: $button-linear-gradient-hover;}
+    }
+  
+    p{
+        margin-bottom: 0.5em;
+        color: $white-color;
+    }
+
+  
+    .add-info   {  font-size:    $font-size-0d8 ;   }
+    span        {   padding: 0 0 0 10px;            }
+
+    .middle-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+  
+        i{
+            background: $blue-color;
+            color: $yellow-color;
+            width: 1.8em;
+            height: 1.8em;
+            border-radius: 50%;
+            position: relative;
+            top: -0.3em;padding: 0 5px;
+            &:before {
+              position: relative;
+              top: 0.3em;
+              left: 0.1em;
+            }
+        }
+    }
+  
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0 0 1em 0;
+        overflow: hidden;
+        
+        li {
+            float: left;
+            padding: 0 4px;
+
+            &.active{ 
+                .btn-sm{
+                    background: $button-linear-gradient-hover;
+                    color: $brown-color;
+                }
+            }
+  
+            a{
+                display: block;
+                color: $white-color;
+                text-align: center;
+                padding: 10px;
+                text-decoration: none;
+                border-radius: 20px;
+                &:hover {
+                    background-color: $yellow-color;
+                    color: $brown-color;
+                }
+            }
+        }
+    }
+}
+
+
+.menu-toggle {
+    display: none;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: $white-color;
+    padding: 15px;
+    box-sizing: border-box;
+
+    border: 1px solid;
+    height: 40px;
+    letter-spacing: 2px;
+    padding-top: 8px;
+    position: absolute;
+    right: 15px;
+    text-align: center;
+    top: 5px;
+    width: 110px;
+}
+
+.mobile-menu {
+    position: block;
+    padding: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99999;
+    background-image: url(../img/bg/top-banner-bg.jpg);
+}
+/******* top-menu END *********/

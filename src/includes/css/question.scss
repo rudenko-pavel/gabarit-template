@@ -1,0 +1,26 @@
+/*********** question START **********/
+#question{
+    background-image: url(../img/bg/question-bg.jpg);
+    color: $white-color;
+
+    .text-input { width: 100%; }
+    .cust-textarea{
+        position: relative;
+        p{
+            font-size: $font-size-0d8;
+            background-color: $grey-color;
+            position: relative;
+            top: -7px;
+            padding: 5px 5px 5px 30px;
+            margin: 0;
+            &:before {
+                content: url(../img/lock.png); 
+                position: absolute;
+                left: 5px;
+                top: 2px;
+            }                            
+        }
+    }
+    .btn-sm{float: right;}
+}
+/*********** question END **********/

@@ -1,0 +1,16 @@
+/************ how-we-work START *************/
+#how-we-work{
+    background-image: url(../img/bg/how-we-work-bg.jpg);
+
+    h1 {padding-bottom: 40px;}
+    h5{font-weight: 800;}
+        
+    .step{
+        h5:before{top: 15px;position: relative;}
+        &:nth-child(7) { h5:before { content: url(../img/pictograms/we1.png);  }}
+        &:nth-child(8) { h5:before { content: url(../img/pictograms/we2.png);  }}
+        &:nth-child(9) { h5:before { content: url(../img/pictograms/we3.png);  }}
+        &:nth-child(10){ h5:before { content: url(../img/pictograms/we4.png);  }}
+    }
+}
+/************ how-we-work END ***************/

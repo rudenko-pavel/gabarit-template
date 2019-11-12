@@ -1,0 +1,46 @@
+$basic-font-size             : 14px;
+$min-font-size               : 10px;
+$font-size-0d4               : 0.4em;
+$font-size-0d8               : 0.8em;
+$font-size-0d9               : 0.9em;
+$font-size-1d1               : 1.1em;
+$font-size-1d2               : 1.2em;
+$font-size-1d4               : 1.4em;
+$font-size-1d6               : 1.6em;
+$font-size-1d8               : 1.8em;
+$font-size-2d0               : 2em;
+$font-size-2d2               : 2.2em;
+$font-size-2d4               : 2.4em;
+$font-size-5d0               : 5em;
+$font-size-6d0               : 6em;
+$font-size-8d0               : 8em;
+$font-size-9d0               : 9em;
+
+
+$font-family-basic:  'OpenSans-Light', Arial, sans-serif;
+
+@font-face {
+    font-family: 'OpenSans-Light';
+    font-style: normal;
+    font-weight: normal;
+    font-display: auto;
+    src:  url("../fonts/OpenSans-Light.ttf") format("truetype"); 
+}
+
+@font-face {
+    font-family: 'Font Awesome 5 Brands';
+    font-style: normal;
+    font-weight: normal;
+    font-display: auto;
+    src: url("../fonts/awesome/fa-brands-400.eot");
+    src: url("../fonts/awesome/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("../fonts/awesome/fa-brands-400.woff2") format("woff2"), url("../fonts/awesome/fa-brands-400.woff") format("woff"), url("../fonts/awesome/fa-brands-400.ttf") format("truetype"), url("../fonts/awesome/fa-brands-400.svg#fontawesome") format("svg"); 
+}
+
+@font-face {
+    font-family: 'Font Awesome 5 Free';
+    font-style: normal;
+    font-weight: 900;
+    font-display: auto;
+    src: url("../fonts/awesome/fa-solid-900.eot");
+    src: url("../fonts/awesome/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../fonts/awesome/fa-solid-900.woff2") format("woff2"), url("../fonts/awesome/fa-solid-900.woff") format("woff"), url("../fonts/awesome/fa-solid-900.ttf") format("truetype"), url("../fonts/awesome/fa-solid-900.svg#fontawesome") format("svg"); 
+}

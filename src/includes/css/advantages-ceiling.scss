@@ -1,0 +1,67 @@
+/******** advantages start ************/
+#advantages-ceiling{
+    background-image: url(../img/bg/advantages-bg.jpg);
+    
+    .advantages-tbl{
+        width: 100%;
+        border: 1px solid $white-color;
+        border-collapse: collapse;
+        margin-bottom: 10px;
+      
+        tr:nth-child(2){ td:first-child { p:before { content: url(../img/advantages/nth-01.png); }    }   }
+        tr:nth-child(3){ td:first-child { p:before { content: url(../img/advantages/nth-02.png); }    }   }
+        tr:nth-child(4){ td:first-child { p:before { content: url(../img/advantages/nth-03.png); }    }   }
+        tr:nth-child(5){ td:first-child { p:before { content: url(../img/advantages/nth-04.png); }    }   }
+        tr:nth-child(6){ td:first-child { p:before { content: url(../img/advantages/nth-05.png); }    }   }
+        tr:nth-child(7){ td:first-child { p:before { content: url(../img/advantages/nth-06.png); }    }   }
+
+        tr{
+            td:first-child{
+                color:$darkblue-color;
+                p:before{position: relative; bottom:-5px;}
+            }
+        }
+
+        th{
+            width:25%;
+            text-align: center;
+            background-color: $dirt-white;
+        }
+
+        th, td{
+            border: 1px solid $white-color;
+            padding: 10px 5px 5px 5px;
+        }
+
+        .best       {  background-color: $dirt-white;       }
+        .best-th    {  background-color: $dirt-white-th;    }
+
+        td{
+            p{
+                margin: 10px auto;
+                padding: 0 10px;
+            }
+        }
+    }
+
+    #ceiling-advantages{
+        padding-bottom: 50px;
+      
+        h5{ font-weight: 800;   }
+
+        .e1{
+            padding-left: 60px;
+            background-repeat: no-repeat;
+            background-position: left top;
+            background-size: 50px;
+
+            &:nth-child(1){ background-image: url(../img/pictograms/a1.png);}
+            &:nth-child(2){ background-image: url(../img/pictograms/a2.png);}
+            &:nth-child(3){ background-image: url(../img/pictograms/a3.png);}
+            &:nth-child(4){ background-image: url(../img/pictograms/a4.png);}
+            &:nth-child(5){ background-image: url(../img/pictograms/a5.png);}
+            &:nth-child(6){ background-image: url(../img/pictograms/a6.png);}
+        }
+    }
+  }
+  /******** advantages end ************/

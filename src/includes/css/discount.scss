@@ -1,0 +1,26 @@
+/************ discount START *************/
+#discount{
+    background-image: url(../img/bg/discount-middle-bg.png);
+    background-size: contain;
+    color: $white-color;
+    
+    h1{
+        text-align: center;
+        font-size: $font-size-5d0;
+        font-weight: 800;
+    }
+    
+    h2{ padding-bottom: 15px; }
+
+    .h10.p10.up{       
+        background-image: url(../img/bg/discount-bg.png);
+        background-size: auto;
+    }
+    
+    .h10.p10.down{       
+        background-image: url(../img/bg/discount-bg.png);
+        background-size: auto;
+        background-position: bottom center;
+    }
+}
+/************ discount END ***************/
